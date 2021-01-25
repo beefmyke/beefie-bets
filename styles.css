@@ -1,0 +1,715 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.mobile {
+  text-align: end;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  background-color: #a8dadc;
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #457b9d;
+  color: white;
+  padding-top: 8px;
+}
+.faq_li {
+  display: none;
+}
+
+.nav-ul {
+  display: flex;
+}
+.social-ul {
+  display: flex;
+}
+.nav-ul li {
+  margin-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.social-ul li {
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+.logo-div {
+  padding-top: 5px;
+  padding-left: 20px;
+}
+.nav-ul li:hover .sub-menu {
+  display: flex;
+  position: absolute;
+  background-color: #457b9d;
+  padding-left: 50px;
+  margin-top: 15px;
+  margin-left: -75px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+.sub-menu {
+  display: none;
+}
+.sub-menu li {
+  text-align: center;
+  border: 50px;
+}
+.nav-ul a {
+  color: white;
+}
+.social-ul a {
+  color: white;
+}
+.nav-ul a:hover {
+  opacity: 0.5;
+}
+.social-ul a:hover {
+  color: red;
+}
+.footer-logo {
+  padding-left: 50px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.footer-nav-ul {
+  display: flex;
+  padding-bottom: 30px;
+}
+.footer-nav-ul li {
+  padding-right: 50px;
+}
+.trademark {
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+}
+.footer-nav {
+  border-bottom: 1px solid #a5a58d;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.footer {
+  background-color: #023047;
+}
+.footer-nav-ul a {
+  color: white;
+}
+.last-footer-div {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-social-ul {
+  display: flex;
+  margin-right: 45px;
+}
+.footer-social li {
+  margin-right: 20px;
+  margin-top: 30px;
+}
+.footer-social-ul a {
+  color: white;
+}
+.footer-nav-ul a:hover {
+  opacity: 0.5;
+}
+.footer-social-ul a:hover {
+  color: red;
+}
+tr,
+td {
+  width: 100px;
+  padding: 5px;
+  /* border-bottom: 1px dotted #023047; */
+}
+.first-h2 h4 {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.laptop {
+  width: 40%;
+}
+.laptop img {
+  width: 100%;
+  justify-content: right;
+}
+.teams {
+  width: 500px;
+  margin-bottom: 20px;
+}
+.terms-div {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  color: #555b6e;
+  font-size: small;
+  padding-bottom: 50px;
+  padding-top: 100px;
+  text-align: justify;
+}
+.contact-div {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  color: #555b6e;
+  font-size: small;
+}
+.prediction-div {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  color: #555b6e;
+  font-size: small;
+  padding-bottom: 100px;
+}
+
+.blog-div {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  color: #555b6e;
+}
+
+/* maradona starts here  */
+.first-blog {
+  display: flex;
+  border-bottom: 1px dotted #555b6e;
+}
+.first-blog:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.first-blog img {
+  transition: 0.5s all ease-in-out;
+}
+.first-blog img:hover {
+  width: 100%;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.maradona {
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  line-height: 25px;
+  color: #555b6e;
+  text-align: justify;
+}
+
+.maradona img {
+  width: 50%;
+  float: left;
+}
+.maradona h1 {
+  padding: 50px;
+}
+.maradona img {
+  /* padding-left: 20px; */
+  padding-right: 20px;
+}
+.armando {
+  width: 20%;
+}
+.diego {
+  width: 80%;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 35px;
+}
+.diego a {
+  font-size: 30px;
+  color: #555b6e;
+}
+/* maradona ends here  */
+/* pape diop starts here */
+.second-blog {
+  display: flex;
+  border-bottom: 1px dotted #555b6e;
+  padding-top: 50px;
+}
+.second-blog:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.second-blog img {
+  transition: 0.5s all ease-in-out;
+}
+.second-blog img:hover {
+  width: 100%;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.bouba {
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  line-height: 25px;
+  color: #555b6e;
+  text-align: justify;
+}
+
+.bouba img {
+  width: 50%;
+  float: left;
+}
+.bouba h1 {
+  padding: 50px;
+}
+.bouba img {
+  padding-right: 20px;
+}
+.pape {
+  width: 20%;
+}
+.diop {
+  width: 80%;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 35px;
+}
+.diop a {
+  font-size: 30px;
+  color: #555b6e;
+}
+/* pape diop ends here */
+
+.about-div {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  color: #555b6e;
+  font-size: large;
+}
+.faq-div {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  color: #555b6e;
+  font-size: small;
+  padding-bottom: 200px;
+}
+details p {
+  padding-left: 30px;
+}
+summary {
+  outline: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border: 1px solid #f0efeb;
+  padding: 5px;
+}
+.faq-div details {
+  margin-bottom: 20px;
+}
+.faq-div summary {
+  font-size: 15px;
+}
+.match-table {
+  background-color: #e9c46a;
+  margin-top: 0;
+  padding-top: 20px;
+  color: #023047;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+tr,
+td {
+  width: 100px;
+  padding: 5px;
+  border-bottom: 1px dotted #023047;
+}
+.teams {
+  width: 500px;
+  margin-bottom: 20px;
+}
+.icon8 {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.gamble-div {
+  padding: 100px;
+  font-size: 25px;
+}
+.first-h2 {
+  text-align: center;
+  color: #023047;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.redirect {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.redirect-span a {
+  color: #023047;
+  font-weight: lighter;
+}
+
+.redirect-span a:hover {
+  color: #f1faee;
+}
+
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
+}
+#toggle {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .match-table {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .gamble-div {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+  }
+  .nav-ul li {
+    margin-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .social-ul li {
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .footer-nav-ul {
+    display: block;
+    padding-bottom: 30px;
+  }
+  .footer-nav-ul li {
+    padding-top: 20px;
+  }
+  .prediction-div {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .about-div {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .terms-div {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .terms-div h1 {
+    font-size: 20px;
+  }
+  .contact-div {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  label {
+    display: block;
+    cursor: pointer;
+    width: 26px;
+  }
+  .nav-ul {
+    display: none;
+    text-align: center;
+    width: 100%;
+  }
+  .nav-ul a {
+    display: block;
+    /* clear: right; */
+    text-align: center;
+    width: 100%;
+  }
+  #toggle:checked + .nav-ul {
+    display: block;
+  }
+  .learn {
+    display: none;
+  }
+  .faq_li {
+    display: block;
+  }
+  .social-nav {
+    display: none;
+  }
+  .faq-div {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .faq-div h1 {
+    font-size: 20px;
+  }
+  .blog-div {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .contact-div {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .first-blog {
+    width: 100%;
+  }
+  .diego a {
+    font-size: 27px;
+  }
+  .maradona {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .maradona h1 {
+    font-size: 25px;
+  }
+  .second-blog {
+    width: 100%;
+  }
+  .diop a {
+    font-size: 27px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  label {
+    display: block;
+    cursor: pointer;
+    width: 26px;
+    float: right;
+  }
+  .nav-ul {
+    display: none;
+    text-align: center;
+    width: 100%;
+  }
+  .nav-ul a {
+    display: block;
+    clear: right;
+    margin: 0;
+    text-align: center;
+  }
+
+  #toggle:checked + .nav-ul {
+    display: block;
+  }
+  .social-nav {
+    display: none;
+  }
+  .footer-logo {
+    justify-content: center;
+  }
+  .footer-nav-ul {
+    display: block;
+  }
+  .footer-nav-ul li {
+    padding: 10px;
+  }
+  .last-footer-div {
+    display: block;
+    padding-left: 10px;
+  }
+  .footer-social-ul {
+    padding: 50px;
+  }
+
+  .terms-div {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .contact-div {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .prediction-div {
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 5px;
+  }
+  .gamble-div {
+    padding: 20px;
+    font-size: 15px;
+    text-align: justify;
+  }
+  .match-table {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
+    font-size: 13px;
+  }
+  .advert-div {
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .advert {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .advert span {
+    font-size: 40px;
+  }
+  .about-div {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    padding-bottom: 200px;
+  }
+  .faq-div {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+  }
+  .faq-div h1 {
+    font-size: 15px;
+    padding-left: 0px;
+  }
+  .learn {
+    display: none;
+  }
+  .faq_li {
+    display: block;
+  }
+  table,
+  td,
+  tr,
+  th {
+    font-size: 11px;
+  }
+  #league-icon {
+    width: 15px;
+  }
+
+  .first-h2 {
+    text-align: center;
+    color: #023047;
+    padding-top: 20px;
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  .maradona {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .maradona img {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .maradona h1 {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .first-blog {
+    display: flex;
+    font-size: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .blog-div {
+    padding: 0;
+  }
+  .armando {
+    width: 40%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+  }
+  .armando img {
+    width: 100%;
+  }
+  .diego {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .diego a {
+    font-size: 17px;
+  }
+  /* pape diop starts here  */
+  .first-h2 {
+    text-align: center;
+    color: #023047;
+    padding-top: 20px;
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  .bouba {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .bouba img {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .bouba h1 {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .second-blog {
+    display: flex;
+    font-size: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .blog-div {
+    padding: 0;
+  }
+  .pape {
+    width: 40%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+  }
+  .pape img {
+    width: 100%;
+  }
+  .pape {
+    width: 35%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  .diop a {
+    font-size: 17px;
+  }
+  .diop {
+    padding-left: 10px;
+  }
+  /* pape diop ends here  */
+}
