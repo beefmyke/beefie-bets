@@ -378,6 +378,7 @@ label {
   display: none;
   width: 26px;
   float: right;
+  color: white;
 }
 #toggle {
   display: none;
