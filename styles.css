@@ -137,7 +137,8 @@ tr,
 td {
   width: 100px;
   padding: 5px;
-  /* border-bottom: 1px dotted #023047; */
+  
+  height: 50px;
 }
 .first-h2 h4 {
   padding-bottom: 30px;
