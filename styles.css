@@ -339,7 +339,7 @@ tr,
 td {
   width: 100px;
   padding: 5px;
-  border-bottom: 1px dotted #023047;
+  height: 50px;
 }
 .teams {
   width: 500px;
